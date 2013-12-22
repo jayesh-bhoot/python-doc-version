@@ -1,0 +1,44 @@
+{
+    "name": "redirect-python",
+    "fullName": "Redirect Python Docs",
+    "title": "Redirect Python Docs",
+    "id": "jid1-Rovh4BT3V3cSgg",
+    "description": "Redirects Python docs to a preset version.",
+    "author": "Ghost",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    "permissions": { 
+        "private-browsing": true
+    },
+    "preferences": [
+        {
+            "name": "desiredVersion",
+            "description": "Select a Python version to which the Python Docs will redirect to automatically.",
+            "title": "Python Version",
+            "type": "menulist",
+            "value": "3.3",
+            "options": [
+                {
+                    "value": "3.4",
+                    "label": "3.4"
+                },   
+                {
+                    "value": "3.3",
+                    "label": "3.3"
+                },
+                {
+                    "value": "3.2",
+                    "label": "3.2"
+                },
+                {
+                    "value": "2.7",
+                    "label": "2.7"
+                },
+                {
+                    "value": "2.6",
+                    "label": "2.6"
+                }
+            ]
+        }
+    ]
+}
